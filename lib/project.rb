@@ -8,6 +8,7 @@ class Project
   def add_backer(backer)
     if backer.is_a?(Backer)
       @backers << backer
+      
   end
   end 
 end 
