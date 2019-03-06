@@ -8,6 +8,7 @@ class Backer
   def back_project(project)
   if project.is_a?(Project)
     @backed_projects << project
+    self 
   end 
 end 
 end 
